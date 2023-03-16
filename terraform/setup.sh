@@ -14,4 +14,4 @@ cd tinyurl
 python init_db.py
 pip3 install hashids
 pip3 install flask
-#flask run --host=0.0.0.0
+flask run --host=0.0.0.0

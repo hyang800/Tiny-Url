@@ -56,37 +56,37 @@ EOF
 resource "aws_s3_object" "object" {
     bucket = "hyang800"
     key = "app.py"
-    source = "D:/USC/TinyUrl/github/Custom-TinyURL/flask-tinyurl-new/app.py"
+    source = "D:/USC/TinyUrl/github/TinyUrl/TinyUrl/app.py"
 }
 
 resource "aws_s3_object" "object2" {
     bucket = "hyang800"
     key = "init_db.py"
-    source = "D:/USC/TinyUrl/github/Custom-TinyURL/flask-tinyurl-new/init_db.py"
+    source = "D:/USC/TinyUrl/github/TinyUrl/TinyUrl/init_db.py"
 }
 
 resource "aws_s3_object" "object3" {
     bucket = "hyang800"
     key = "schema.sql"
-    source = "D:/USC/TinyUrl/github/Custom-TinyURL/flask-tinyurl-new/schema.sql"
+    source = "D:/USC/TinyUrl/github/TinyUrl/TinyUrl/schema.sql"
 }
 
 resource "aws_s3_object" "object4" {
     bucket = "hyang800"
     key = "base.html"
-    source = "D:/USC/TinyUrl/github/Custom-TinyURL/flask-tinyurl-new/templates/base.html"
+    source = "D:/USC/TinyUrl/github/TinyUrl/TinyUrl/templates/base.html"
 }
 
 resource "aws_s3_object" "object5" {
     bucket = "hyang800"
     key = "data.html"
-    source = "D:/USC/TinyUrl/github/Custom-TinyURL/flask-tinyurl-new/templates/data.html"
+    source = "D:/USC/TinyUrl/github/TinyUrl/TinyUrl/templates/data.html"
 }
 
 resource "aws_s3_object" "object6" {
     bucket = "hyang800"
     key = "index.html"
-    source = "D:/USC/TinyUrl/github/Custom-TinyURL/flask-tinyurl-new/templates/index.html"
+    source = "D:/USC/TinyUrl/github/TinyUrl/TinyUrl/templates/index.html"
 }
 
 resource "aws_instance" "example" {
